@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 [forward]<br>
 <h2>this is action page</h2>  
 <jsp:forward page="printdate.jsp" >
@@ -35,6 +36,7 @@ Email:<input type="text" name="email"><br>
 <% int m = obj.cube(5);
 	out.print("cube of 5 is "+m);
 %>
+
 
 [setProperty & getProperty]<br>
 
