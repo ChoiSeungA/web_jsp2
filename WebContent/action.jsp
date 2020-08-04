@@ -30,7 +30,7 @@ Email:<input type="text" name="email"><br>
 <input type="submit" value="register">  
 </form>  
 
-<br><br>
+<br><br> 
 <jsp:useBean id="obj" class="com.example.Calculator"></jsp:useBean>
 
 <% int m = obj.cube(5);
